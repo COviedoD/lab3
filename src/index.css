@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  /* Fondo un poco más claro */
+  color: #333;
+  /* Blanco hueso */
+  cursor: default;
+}
+
+header {
+  background-color: #ffffff;
+  /* Blanco */
+  color: #333;
+  /* Negro */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  /* Línea sutil para separar el header */
+}
+
+header img {
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #b22222;
+  /* Rojo oscuro */
+  text-align: center;
+  /* Centra el título */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  /* Negro */
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #b22222;
+  /* Rojo oscuro */
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ffffff;
+  /* Blanco */
+  color: #333;
+  /* Negro */
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  /* Línea sutil para separar el footer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px;
+}
+
+footer .social-icons {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .social-icons a {
+  color: #333;
+  /* Negro */
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer .social-icons a:hover {
+  color: #b22222;
+  /* Rojo oscuro */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #b22222;
+  /* Rojo oscuro */
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  /* Centra los títulos */
+}
+
+/* Estilos para los nombres de productos */
+.product-name {
+  font-size: 20px;
+  /* Tamaño del nombre del producto */
+  font-weight: bold;
+  /* Negrita */
+  margin-bottom: 5px;
+  /* Espacio inferior */
+}
+
+/* Asegura que todas las imágenes de productos tengan el mismo tamaño y estén centradas */
+.product-img {
+  width: 15em;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+
+/* Estilos para las descripciones de productos */
+.product-desc {
+  font-size: 16px;
+  /* Tamaño de la descripción del producto */
+  margin-bottom: 10px;
+  /* Espacio inferior */
+}
+
+/* Estilos para los precios de productos */
+.product-price {
+  font-size: 18px;
+  /* Tamaño del precio del producto */
+  color: #008000;
+  /* Verde oscuro para un aspecto elegante */
+}
